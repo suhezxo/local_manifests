@@ -3,6 +3,6 @@
 <manifest>
 
     <!--Device Tree-->
-    <project path="device/samsung/zerofltexx" name="samsungexynos7420/android_device_samsung_zeroltexx" remote="github" revision="lineage-19.1" />
+    <project path="device/samsung/zeroltexx" name="samsungexynos7420/android_device_samsung_zeroltexx" remote="github" revision="lineage-19.1" />
 	
 </manifest>
