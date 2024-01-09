@@ -13,7 +13,7 @@
     <project path="vendor/samsung" name="samsungexynos7420/proprietary_vendor_samsung" remote="github" revision="lineage-20" />
 	
     <!-- Hardware -->
-    <project path="hardware/samsung" name="samsungexynos7420/android_hardware_samsung" remote="github" revision="lineage-20" />
+    <project path="hardware/samsung" name="LineageOS/android_hardware_samsung" remote="github" revision="lineage-20" />
     <project name="LineageOS/android_device_samsung_slsi_sepolicy" path="device/samsung_slsi/sepolicy" revision="lineage-20" remote="github" />
     
     <!-- Linaro BSP -->
