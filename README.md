@@ -3,12 +3,16 @@ Lineage OS 20 manifest for Samsung S6 and S6 edge International variants
 
 ## Steps to build  
 1) Clone Lineage 20 repo and setup your build environment according to the lineage documentation  
-2) Clone 7420_patches and follow the instructions to apply them. **THIS IS REQUIRED FOR WORKING BUILDS AND IS MANDATORY**  
-3) Follow the general guidance on local_manifests in order to clone all necessary repos  
-4) Open the Lineage 20 root folder  
+2) Clone 7420_patches (lineage-20 branch) and follow the instructions to apply them. **THIS IS REQUIRED FOR WORKING BUILDS AND IS MANDATORY**  
+3) Copy universal7420.xml to {ANDROID_ROOT}/.repo/local_manifests/roomservice.xml - create the folder if it doesnt exist 
+4) Go back to the root of your android build space and open a terminal if you haven't already
 5) source build/envsetup.sh  
 6) lunch lineage_[codename]-userdebug  
 7) make bacon -j[cpucorecount]  
 
-wait for it to build and flash the zip
+Replace codename with the device you are trying to build.
+Valid codenames:
+- zerofltexx : for the FLAT version of the S6 (G920)
+- zeroltexx: for the EDGE version of the S6 (G925)
 
+This should be all that is required for a successful build
